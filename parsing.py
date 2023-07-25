@@ -1,9 +1,9 @@
+import asyncio
+from aiohttp import ClientSession
 import bs4
 from openpyxl import Workbook
 from openpyxl.styles import Font, Alignment, Border, Side
 from openpyxl.utils.cell import get_column_letter
-import asyncio
-from aiohttp import ClientSession
 
 HOST = 'https://www.aviasales.ru'
 WIDHT_COLUMNS = 40
